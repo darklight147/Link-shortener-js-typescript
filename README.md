@@ -9,7 +9,7 @@
 <br/>
 
 <p>
-  This is a URL shortener that uses typescript, mainly used on game-linter.com, but can be cnverter to any platform you want.
+  This is a URL shortener that uses typescript, mainly used on game-linter.com, but can be converted to use any platform you want.
 </p>
 
 ## Install
