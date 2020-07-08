@@ -1,0 +1,12 @@
+image: docker:latest
+services:
+  - docker:dind
+
+stages:
+  - deploy
+deployement:
+  stage: deploy
+  script:
+    - sudo docker-compose -f docker-compose.yaml up --build -d
+  only:
+    - master

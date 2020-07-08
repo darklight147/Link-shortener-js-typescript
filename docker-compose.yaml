@@ -1,0 +1,15 @@
+version: "3.5"
+
+services:
+  shortener:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      MONGO_URI: YOUR_MONGO_URI
+      SECRET: "monkey"
+networks:
+  default:
+    external:
+      name: main_network
