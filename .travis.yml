@@ -1,0 +1,7 @@
+language: node_js
+
+node_js:
+  - "alpine"
+services: 
+  - mongodb
+script: yarn build:prd
