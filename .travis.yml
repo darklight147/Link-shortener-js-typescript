@@ -4,6 +4,8 @@ node_js:
   - "stable"
 services: 
   - mongodb
+install:
+  - yarn --frozen-lockfile
 script: yarn build:prd
 
 cache:
