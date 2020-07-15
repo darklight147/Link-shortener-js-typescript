@@ -4,6 +4,7 @@
   <a href="https://github.com/darklight147/Link-shortener-js-typescript/blob/master/LICENSE.md" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <img alt="build" src="https://travis-ci.org/darklight147/Link-shortener-js-typescript.svg?branch=master" />
 </p>
 
 <br/>
