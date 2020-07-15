@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - "alpine"
+  - "stable"
 services: 
   - mongodb
 script: yarn build:prd
