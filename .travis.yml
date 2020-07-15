@@ -5,3 +5,6 @@ node_js:
 services: 
   - mongodb
 script: yarn build:prd
+
+cache:
+  yarn: true
